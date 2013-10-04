@@ -1,0 +1,150 @@
+/*--------------css for project analysis------------*/
+
+ body {  
+	background-color: white;
+	max-width: 960px;
+	margin: 0 auto;  
+	font: 100%; 
+}
+
+#wrapper {
+	background-color: rgba(155,188,242,0.1);
+	margin: 0;
+	padding: 0 20px;
+	-moz-box-shadow: 	2px 0px 5px #e4eaf5, -2px 0px 5px #e4eaf5; 
+	-o-box-shadow:		2px 0px 5px #e4eaf5, -2px 0px 5px #e4eaf5; 
+	-webkit-box-shadow: 2px 0px 5px #e4eaf5, -2px 0px 5px #e4eaf5;
+	box-shadow: 		2px 0px 5px #e4eaf5, -2px 0px 5px #e4eaf5; 
+	}
+
+Header {
+	padding-top: 20px;
+	text-align: center;
+	border-bottom: solid 1px black;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+	font-size: 1.5em
+	text-align: center;
+	margin: 45px 0;
+}
+
+p {
+	padding: 0 40px;
+	margin-bottom: 0;
+}
+
+
+
+li {
+	padding: 0 40px;
+	list-style-type: none;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: black;  
+} 
+
+a:visited {
+	color: black; 
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline; 
+}
+
+a: active {
+	color: gray; 
+}
+
+#intent {
+	padding-bottom: 30px;
+	border-bottom: solid 1px black;
+}
+
+#intent div {
+	margin-top: 10px;
+}
+
+#target {
+	padding-bottom: 30px;
+	border-bottom: solid 1px black;
+}
+
+#current{
+	text-align: center;
+}
+#compete {
+	font-size: .8em;
+}
+
+
+#com1, #com2  {
+	width: 33.3%;
+	float: left;
+	padding-top: 20px;
+	display: inline;
+}
+
+#com3  {
+	width: 33.3%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	display: inline;
+}
+
+footer {
+	font-size: .7em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+/* =media queries 
+==============================================*/ 
+
+
+/* tablet portrait size to standard 960 (devices and browser) */
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+
+#wrapper {
+
+}
+
+}
+
+/* mobile landscape size to tablet standard (devices and browser) --------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#com1, #com2, #com3 {
+	width: 95%;
+	text-align: center;
+	clear: left;
+	padding-top: 20px;
+}
+
+
+}
+
+/* mobile portrait size to mobile landscape  portrait (devices and browser) ---------- */
+
+@media only screen and (max-width: 479px) {
+
+
+#com1, #com2, #com3 {
+	width: 95%;
+	text-align: center;
+	clear: left;
+	padding-top: 20px;
+}
+
+}
+
+
